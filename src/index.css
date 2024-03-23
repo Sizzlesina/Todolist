@@ -1,0 +1,35 @@
+/** @format */
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background: rgb(245, 235, 235);
+  background: -moz-linear-gradient(
+    212deg,
+    rgba(245, 235, 235, 1) 0%,
+    rgba(14, 67, 236, 1) 0%,
+    rgba(78, 198, 223, 1) 52%,
+    rgba(232, 234, 238, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    212deg,
+    rgba(245, 235, 235, 1) 0%,
+    rgba(14, 67, 236, 1) 0%,
+    rgba(78, 198, 223, 1) 52%,
+    rgba(232, 234, 238, 1) 100%
+  );
+  background: linear-gradient(
+    212deg,
+    rgba(245, 235, 235, 1) 0%,
+    rgba(14, 67, 236, 1) 0%,
+    rgba(78, 198, 223, 1) 52%,
+    rgba(232, 234, 238, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5ebeb",endColorstr="#e8eaee",GradientType=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  direction: rtl;
+  text-align: right;
+}
